@@ -1,0 +1,12 @@
+{
+    "name": "Quora No Signin",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "Browse Quora without signing in",
+    "content_scripts": [
+    {
+      "matches": ["http://www.quora.com/*", "https://www.quora.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
